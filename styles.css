@@ -644,3 +644,11 @@ header ul li:nth-child(1) a {
     margin-right: 0 !important;
   }
 }
+.logo {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 70px; 
+  top: 30px;
+}
+

@@ -3,15 +3,17 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" alt="Lucasdev, Lucas Cavalcante, Progamador, Front-end, São Paulo, Freelancer" />
- <link rel="icon" type="image/png" href="/images/logo.gif">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/images/logo.gif">
   <title>LucasDev</title>
   <link rel="stylesheet" href="styles.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -22,46 +24,52 @@
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-  <header>
-    <nav>
-       <h1 class="nome"><img class="logo" src="/images/logo.gif" alt=""></h1>
-      <ul>
-        <li><a href="#s-container">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
-      <button id="btn">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    </nav>
-  </header>
+  <section class="background">
+    <header>
+      <nav>
+        <h1 class="nome"><img class="logo" src="/images/logo.gif" alt=""></h1>
+        <ul>
+          <li><a href="#s-container">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <button id="btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </header>
 
-  <div class="icons">
-    <a href="https://github.com/lucasmechinha123" target="_blank"><i class="fa-brands fa-github"></i></a>
-    <div class="line"></div>
-    <a href="https://www.linkedin.com/in/lucas-cavalcante-2652471b9/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-  </div>
+    <div class="icons">
+      <a href="https://www.instagram.com/lucasmechinha11/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 
-  <section>
-    <div class="s-container" id="s-container">
-      <div class="content">
-        <span class="subtitle"> </span>
-        <h1 class="title">
-          Sou <span>Lucas Cavalcante <br /></span> Desenvolvedor Frontend.
-        </h1>
-        <p class="description">
-          Sou um desenvolvedor apaixonado por tecnologia e inovação, sempre em busca de soluções criativas que impulsionem o progresso. Almejo integrar equipes de alta performance, onde possa aprimorar minhas habilidades e contribuir para o crescimento da organização. Tenho experiência com diversas tecnologias, incluindo HTML, CSS,
-          JavaScript, React, Next.js, TypeScript, Node e Wordpress.
-        </p>
-        <div class="buttons">
-          <a href="/cv/Lucas Cavalcante.pdf" target="_blank">Meu Curriculo</a>
-          <a href="#portfolio">Portfolio</a>
+      <a href="https://github.com/lucasmechinha123" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <div class="line"></div>
+      <a href="https://www.linkedin.com/in/lucas-cavalcante-2652471b9/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+
+      <a href="https://wa.me/5511994727440?text=Gostaria%20de%20um%20or%C3%A7amento" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <section>
+      <div class="s-container" id="s-container">
+        <div class="content">
+          <span class="subtitle"> </span>
+          <h1 class="title">
+            Sou <span>Lucas Cavalcante <br /></span> Desenvolvedor Frontend.
+          </h1>
+          <p class="description">
+            Sou um desenvolvedor apaixonado por tecnologia e inovação, sempre em busca de soluções criativas que impulsionem o progresso. Almejo integrar equipes de alta performance, onde possa aprimorar minhas habilidades e contribuir para o crescimento da organização. Tenho experiência com diversas tecnologias, incluindo HTML, CSS,
+            JavaScript, React, Next.js, TypeScript, Node e Wordpress.
+          </p>
+          <div class="buttons">
+            <a href="/cv/Lucas Cavalcante.pdf" target="_blank">Meu Curriculo</a>
+            <a href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./images/pffp.jpg" alt="pfp" />
         </div>
       </div>
-      <div class="image">
-        <img src="./images/pffp.jpg" alt="pfp" />
-      </div>
-    </div>
+    </section>
   </section>
 
   <div class="projects-section" id="portfolio">
@@ -148,6 +156,10 @@
         </a>
       </div>
     </div>
+    <div>
+
+    </div>
+
   </div>
 
   <!-- back top button  -->
@@ -166,14 +178,15 @@
 
 </body>
 <script src="script.js"></script>
-<!-- Google tag (gtag.js) -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1F9TQDRP2H">
 </script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-1F9TQDRP2H');
 </script>
+
 </html>
